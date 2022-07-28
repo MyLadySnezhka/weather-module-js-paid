@@ -8,8 +8,8 @@ weather.find({search: 'Odessa, UA', degreeType: 'C'}, function(err, result) {
     if(err) console.log(err);
    
     //console.log(JSON.stringify(result, null, 2));
-    let cityw = JSON.stringify(result, null, 2);
+    //let cityw = JSON.stringify(result, null, 2);
     //let cityw = result.data;
-    //console.log(cityw.current.temperature);
-    console.log(cityw);
+    console.log(result[0].current.temperature);
+    //console.log(cityw);
   });
