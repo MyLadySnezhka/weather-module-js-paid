@@ -1,0 +1,24 @@
+{
+  "name": "weather",
+  "version": "1.0.0",
+  "description": "Подключение своих модулей и экспорт данных (ДЗ платной группы 25.07.)",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./app.js",
+    "mstart": "nodemon ./app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MyLadySnezhka/weather-module-js-paid.git"
+  },
+  "author": "Snezhka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MyLadySnezhka/weather-module-js-paid/issues"
+  },
+  "homepage": "https://github.com/MyLadySnezhka/weather-module-js-paid#readme",
+  "dependencies": {
+    "weather-js": "^2.0.0"
+  }
+}
