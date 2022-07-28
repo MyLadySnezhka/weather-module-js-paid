@@ -4,8 +4,8 @@ const weather = require('weather-js');
 // search:     location name or zipcode
 // degreeType: F or C
 
-const pogodun = (city) => {
-weather.find({search: city, degreeType: 'C'}, function(err, result) {
+const pogodun = async (city) => {
+await weather.find({search: city, degreeType: 'C'}, function(err, result) {
     if(err) console.log(err);
    
     //console.log(JSON.stringify(result, null, 2));
